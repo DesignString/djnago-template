@@ -26,6 +26,7 @@ USER_NOT_FOUND = 'User not found!'
 METHOD_NOT_ALLOWED_MESSAGE = "This method not allowed!"
 
 AVOID_AUTHENTICATION = (
+    ('/admin/'),
     ('/auth/'),
     ('/docs/'),
     ('/docs-swagger/')
