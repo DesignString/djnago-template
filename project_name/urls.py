@@ -53,7 +53,7 @@ urlpatterns = [
     url('auth/signup/', registration.signup),
     url('auth/forgot-password/', registration.forgot_password),
     url('auth/reset-password/', registration.reset_password)
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 urlpatterns += [
 
