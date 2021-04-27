@@ -31,9 +31,9 @@ from app import registration
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Django Template Backend APIs",
+      title="project_name Backend APIs",
       default_version='v1',
-      description="List of APIs used in GTM",
+      description="List of APIs used in project_name",
       # terms_of_service="https://www.google.com/policies/terms/",
       # contact=openapi.Contact(email="contact@snippets.local"),
       # license=openapi.License(name="BSD License"),
